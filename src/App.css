@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.mi-modal .ant-modal-footer button + button{
+  background-color:peru
 }
 
 @keyframes App-logo-spin {
